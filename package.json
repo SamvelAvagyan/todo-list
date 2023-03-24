@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/SamvelAvagyan/todo-list/issues"
   },
-  "homepage": "https://github.com/SamvelAvagyan/todo-list#readme"
+  "homepage": "https://github.com/SamvelAvagyan/todo-list#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.30.0"
+  }
 }
